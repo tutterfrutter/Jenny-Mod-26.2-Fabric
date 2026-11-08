@@ -1,0 +1,34 @@
+{
+	"schemaVersion": 1,
+	"id": "sexmod_jenny_port",
+	"version": "${version}",
+	"name": "Fapcraft NPC Port",
+	"description": "Fabric 26.2 port of Jenny with original rendering, movement, sounds and NPC modes.",
+	"authors": [
+		"Original Fapcraft authors",
+		"Fabric port"
+	],
+	"license": "All Rights Reserved",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.trolmastercard.sexmod.port.JennyPort"
+		],
+		"client": [
+			"com.trolmastercard.sexmod.port.client.JennyPortClient"
+		]
+	},
+	"mixins": [
+		{
+			"config": "sexmod_jenny_port.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.19.3",
+		"minecraft": "26.2",
+		"java": ">=25",
+		"fabric-api": "*",
+		"geckolib": ">=5.5"
+	}
+}
