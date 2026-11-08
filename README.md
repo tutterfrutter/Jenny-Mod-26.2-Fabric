@@ -1,5 +1,12 @@
 # Fapcraft: Jenny Fabric port
 
+> **DISCLAIMER:** This repo is **not 100% finished** — it's a hobby port made
+> by boredom and purely for the lol. Expect half-working cameras, a
+> freeze after scenes I haven't fully squashed yet, and general jank. Do
+> not sue me. It builds, it loads, the girls walk — that's a start.
+
+---
+
 Minecraft 26.2 Fabric port containing:
 
 - the `sexmod:jenny`, `sexmod:galath` and `sexmod:manglelie` entities;
